@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+}
+.App_Header{
+  background-color: white;
+  padding: 10px;
+  border-bottom:1px solid lightgray;
+  object-fit: contain;
+}
+.App{
+  background-color: #fafafa;
+
+}
+.header-padding{
+  padding: 10px;
+ 
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
