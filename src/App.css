@@ -2,10 +2,28 @@
   margin: 0;
 }
 .App_Header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
   padding: 10px;
   border-bottom:1px solid lightgray;
   object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 235px;
+}
+.right_post{
+  margin-left: 20px;
+}
+.app-posts{
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+.App-Headerimg{
+  object-fit: contain;
+  padding-left: 260px;
 }
 .App{
   background-color: #fafafa;

@@ -5,6 +5,22 @@
     border: 1px solid lightgray;
     margin-bottom: 45px;
 }
+.post-comment{
+    display: flex;
+    margin-top: 10px;
+}
+.post_input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+.comment_box{
+    padding: 10px;
+}
+.post-button{
+    flex: 0;
+}
 .post_img{
 width: 100%;
 object-fit: contain;
